@@ -34,12 +34,5 @@ The game challenges players to memorize and repeat an increasingly long sequence
 
 ---
 
-## 📂 Project Structure
-simon-says-game/
-│
-├── index.html
-├── style.css
-├── app.js
-└── README.md
 
 ---
