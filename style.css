@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background: #7e8180;
+    transition: background-color 0.25s ease;
+    font-family: "Inter", system-ui, sans-serif;
+}
+h1 {
+    color: #1f1f1f;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.5px;
+}
+h2 {
+    color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 rgba(255, 255, 255, 0.2);
+    transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    filter 0.15s ease;
+}
+.box:hover {
+  transform: scale(1.03);
+}
+
+.green{
+    background-color: #63aac0;
+   opacity: 0.4;
+}
+.red{
+    background-color: #d95980;
+    opacity: 0.4;
+}
+.purple{
+    background-color: #819ff9;
+     opacity: 0.4;
+}
+.yellow{
+    background-color: #f99b45;
+     opacity: 0.4
+}
+.flash{
+    opacity: 1;
+    filter: brightness(1.4);
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.2);
+}
+.score{
+    color: #1f1f1f;
+    /* position: absolute;
+    top: 10%;
+   font: 900;*/
+    position: relative; 
+    left: 100px;
+    bottom: 16px;
+    
+
+    font-size: 0.85rem;
+  opacity: 0.7;
+  /* margin-bottom: 1.8rem; */
+}
+
