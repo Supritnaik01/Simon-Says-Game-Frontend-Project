@@ -5,11 +5,6 @@ The game challenges players to memorize and repeat an increasingly long sequence
 
 ---
 
-## 🚀 Live Demo
-> _(Add link here if deployed using GitHub Pages / Netlify / Vercel)_
-
----
-
 ## 🧠 How the Game Works
 
 1. Press **any key** to start the game.
